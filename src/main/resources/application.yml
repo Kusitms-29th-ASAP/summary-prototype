@@ -1,1 +1,11 @@
-spring.application.name=Summary-Prototype
+spring:
+  application:
+    name=Summary-Prototype
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+clova:
+  api-key-id: ${API_KEY_ID}
+  api-key: ${API_KEY}

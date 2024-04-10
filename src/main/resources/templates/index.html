@@ -1,0 +1,7 @@
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+
+<h2 style="color: yellowgreen">가정 통신문 업로드</h2>
+<form th:action="@{/api/summary}" method="post" enctype="multipart/form-data" accept-charset="UTF-8">
+    <input type="file" name="file"><br>
+    <input type="submit" value="Upload">
+</form>

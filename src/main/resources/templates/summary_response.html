@@ -1,0 +1,9 @@
+
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+
+<h2 style="color: yellowgreen">가정 통신문 요약 결과</h2>
+
+<div th:if="${summaryResponse != null}">
+    <h3>요약 결과</h3>
+    <p th:text="${summaryResponse.result}"></p>
+</div>
